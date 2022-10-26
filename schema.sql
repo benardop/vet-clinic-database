@@ -5,3 +5,7 @@ CREATE TABLE animals(id serial PRIMARY KEY NOT NULL,name VARCHAR(50) NOT NULL,
     neutered BOOLEAN NOT NULL,weight_kg NUMERIC(5,2) NOT NULL
   );
 
+  /*Alter Table sql command*/
+
+  ALTER TABLE animals ADD COLUMN species VARCHAR(50);
+
