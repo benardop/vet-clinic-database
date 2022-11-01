@@ -134,3 +134,6 @@ WHERE vets.name = 'Maisy Smith'
 GROUP BY vets.name, animals.species_id, species.name
 ORDER BY animals.species_id DESC
 LIMIT 1;
+
+
+/**query analyze script** /
